@@ -1,0 +1,36 @@
+<section class="content-wrapper">
+  <section class="content">
+    <div class="content-header">
+      <p class="content-developerName">Developed by Volodymyr Sichinava</p>
+      <p class="content-header__title"> Irregular Verbs</p>
+      <p class="content-header__description">This website was designed for students of MEW school to consolidate 
+        knowledge of irregular verbs. After pressing the button (Let's Go!), the test will give you words in the Present Simple 
+        tense, you will need to write the rest of the verb forms. Please, write verbs in lowercase. At the end of the test, you will see the result.</p>
+    </div>
+    <div class="content-test">
+      <button id="buttonCreate" class="content-test__buttonCreate">Let's Go!</button>
+      <div id="counterVerbs" class="content-test__counter">
+        <p>Verb: <span id="currentNumber"></span> of <span id="fullNumber"></span></p>
+      </div>
+      <div id="inputs" class="content-test__inputs">
+        <div>
+          <label for="pressimple">Present Simple</label>
+          <p id="pressimple"></p>
+        </div>
+        <div>
+          <label for="pastsimple">Past Simple</label>
+          <input type="text" id="pastsimple" name="pastsimple">
+        </div>
+        <div>
+          <label for="pastparticiple">Past Participle</label>
+          <input type="text" id="pastparticiple" name="pastparticiple">
+        </div>
+        <button id="buttonCheck" class="buttonNext">Next</button>
+      </div>
+    </div>
+    <div id="infoResults" class="content-infoResults">
+      <p>Your result: right - <span id="rightNumber"></span> wrong - <span id="wrongNumber"></span></p>
+    </div>
+    <div id="content-results" class="content-result"></div>
+  </section>
+</section>

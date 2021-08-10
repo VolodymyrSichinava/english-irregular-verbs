@@ -1,0 +1,159 @@
+.content-wrapper {
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1000px;
+  box-shadow: 1px 14px 29px 5px rgba(34, 60, 80, 0.41); }
+
+.content {
+  width: 1000px;
+  background: linear-gradient(45deg, #494583, #37415a); }
+  .content-developerName {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - 190px);
+    top: 0;
+    margin-top: 15px;
+    font-size: 25px;
+    color: black; }
+  .content-header {
+    padding: 30px;
+    color: white; }
+    .content-header__title {
+      font-family: "Quicksand", sans-serif;
+      font-weight: 700;
+      padding-bottom: 40px;
+      font-size: 55px;
+      text-align: center; }
+    .content-header__description {
+      font-family: "Quicksand", sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 27px; }
+  .content-test__buttonCreate {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    position: relative;
+    left: 50%;
+    margin: 5px auto 25px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    transform: translate(-50%, 0);
+    transition: 0.5s; }
+    .content-test__buttonCreate:hover {
+      color: white;
+      background-color: transparent;
+      cursor: pointer; }
+  .content-test__counter {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    display: none;
+    justify-content: center;
+    margin-top: 20px;
+    width: 1000px; }
+    .content-test__counter p {
+      font-size: 23px;
+      color: white; }
+      .content-test__counter p span {
+        padding: 0 5px; }
+  .content-test__inputs {
+    display: none;
+    justify-content: space-between;
+    padding: 25px 30px 40px; }
+    .content-test__inputs div {
+      font-family: "Quicksand", sans-serif;
+      font-weight: 400;
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+      .content-test__inputs div label {
+        margin-bottom: 15px;
+        font-size: 21px;
+        color: #c5c5c5; }
+      .content-test__inputs div p {
+        margin-top: 4px;
+        font-size: 22px;
+        color: white; }
+      .content-test__inputs div input {
+        border: 1px solid white;
+        border-radius: 5px;
+        width: 220px;
+        height: 35px;
+        font-size: 22px;
+        text-align: center;
+        color: white;
+        background-color: inherit; }
+    .content-test__inputs .buttonNext {
+      font-family: "Quicksand", sans-serif;
+      font-weight: 500;
+      margin-top: 35px;
+      border: 1px solid white;
+      border-radius: 20px;
+      width: 100px;
+      height: 38px;
+      font-size: 20px;
+      color: black;
+      background-color: white;
+      transition: 0.5s; }
+      .content-test__inputs .buttonNext:hover {
+        color: white;
+        background-color: transparent;
+        cursor: pointer; }
+  .content-infoResults {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    display: none;
+    justify-content: center;
+    font-size: 22px;
+    word-spacing: 3px;
+    color: white; }
+  .content-result {
+    padding: 15px 0; }
+    .content-result__wrongAnswers {
+      font-family: "Quicksand", sans-serif;
+      font-weight: 500;
+      position: relative;
+      margin: 0 auto;
+      width: 500px;
+      font-size: 21px;
+      color: white; }
+      .content-result__wrongAnswers::before {
+        content: "";
+        position: absolute;
+        left: -250px;
+        top: -1px;
+        width: 1000px;
+        height: 2px;
+        background-color: white; }
+      .content-result__wrongAnswers tr {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid white;
+        padding: 10px 0;
+        width: 500px; }
+      .content-result__wrongAnswers .resultPres {
+        text-align: center; }
+      .content-result__wrongAnswers td {
+        width: 250px; }
+        .content-result__wrongAnswers td .true {
+          display: inline-block;
+          padding: 5px 0;
+          color: #5eff00; }
+        .content-result__wrongAnswers td .false {
+          display: inline-block;
+          padding: 5px 0;
+          color: red; }
+
+.site-container {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/background.jpg") no-repeat;
+  background-size: cover; }
+
+/*# sourceMappingURL=main.css.map */
